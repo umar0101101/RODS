@@ -22,7 +22,17 @@ class Person {
   
   return (
     <div className="App">
-      <h1>Hello, Everyone!</h1>
+      <p>Student: {studentName}</p>
+      <p>Score: {score}</p>
+      <p>Colors: {colors.join(", ")}</p>
+      <p>Name: {person.name}, Age: {person.age}</p>
+      <ul>
+        {people.map((p, index) => (
+          <li key={index}>
+            Name: {p.name}, Age: {p.age}
+          </li>
+        ))}
+      </ul>
     </div>
   );
 } 
