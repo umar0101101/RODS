@@ -3,6 +3,7 @@ function App() {
    let age: number = 39; 
    let isTeacher: boolean = true;
     
+ let colours: string[] = ["red", "green", "blue"];  
    let teacher = new Person();
     
    teacher.name = name; 
