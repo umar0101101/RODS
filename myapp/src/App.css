@@ -1,50 +1,49 @@
-/* Label styling */ 
-label {
+ /* Label styling */
+ label {
    color: darkgreen;
     font-family: Arial, sans-serif;
      font-size: 1.25rem;
-      font-weight: bold;
-       line-height: 1.5;
-       }
-
-        /* Background layout container */ 
-        form {
-           background-color: navy;
-           }
-
-           /* Button default and hover states */
-            button { 
-              color: white;
-               background-color: darkred;
+      font-weight: bold; 
+      line-height: 1.5;
+     } 
+     
+     /* Background layout container */
+      form {
+         background-color: navy;
+         }
+         
+         /* Button default and hover states */
+          button {
+             color: white; 
+             background-color: darkred;
+             }
+             
+             button:hover {
+               background: orange;
                }
-
-                button:hover {
-                   background: orange;
-                      }
-                  
-                    /* Keyboard focus outlines */
-                     input:focus-visible, 
-                     select:focus-visible,
-                      button:focus-visible {
-                         outline: 3px solid orange;
-                          outline-offset: 3px;
-                         }
-
-                         /* Input, select, spacing, borders, and rounded corners */
-                          input, select {
-                             padding: 5px;
-                              margin: 5px;
-                               border: 1px solid silver;
-                                border-radius: 10px;
+               
+               /* Keyboard focus outlines */
+                input:focus-visible,
+                 select:focus-visible,
+                  button:focus-visible {
+                     outline: 3px solid orange;
+                      outline-offset: 3px;
+                     } 
+                     
+                     /* Input, select, spacing, borders, and rounded corners */
+                      input, select {
+                         padding: 5px;
+                          margin: 5px;
+                           border: 1px solid silver;
+                            border-radius: 10px;
+                           }
+                           
+                           /* Table layout and borders */
+                            table {
+                               width: 100%;
                                }
                                
-                               /* Table layout and borders */
-                                table {
-                                   width: 100%;
-                                   }
-                                   
-                                   th, td {
-                                     border: 1px solid gray; 
-                                     text-align: center;
-                                     }
-                                     
+                               th, td {
+                                 border: 1px solid gray;
+                                  text-align: center;
+                                 }

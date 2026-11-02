@@ -1,3 +1,4 @@
+import "./App.css";
 import { useState } from "react";
  import csvText from "./data.csv?raw";
   import Papa from "papaparse";
